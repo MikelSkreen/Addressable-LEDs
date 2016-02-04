@@ -1,0 +1,18 @@
+INFO: [Common 17-701] A license check has taken more than 10 seconds to complete. This may indicate that there is a performance issue with one or more license servers listed in XILINXD_LICENSE_FILE or LM_LICENSE_FILE, or that the license servers are just not responding at all. Try setting the FLEXLM_DIAGNOSTICS environment variable to 3 and running Vivado again to get more information.
+#-----------------------------------------------------------
+# updatemem v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# 
+# Start of session at: Mon Oct 19 17:50:08 2015
+# Process ID: 7500
+# Log file: c:/Users/mskreen.NI/OneDrive/Digilent/Arty/Arty_Microblaze_Server/updatemem.log
+# Journal file: c:/Users/mskreen.NI/OneDrive/Digilent/Arty/Arty_Microblaze_Server\updatemem.jou
+#-----------------------------------------------------------
+source C:/Xilinx/SDK/2015.2/scripts/updatemem/main.tcl -notrace
+Loading bitfile C:/Users/mskreen.NI/OneDrive/Digilent/Arty/Mb_Server/Mb_Server.sdk/Mb_Server_wrapper_hw_platform_0/Mb_Server_wrapper.bit
+Loading data files...
+Updating memory content...
+Creating bitstream...
+Writing bitstream C:/Users/mskreen.NI/OneDrive/Digilent/Arty/Mb_Server/Mb_Server.sdk/Mb_Server_wrapper_hw_platform_0/download.bit...
+update_mem: Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 487.266 ; gain = 433.973
+INFO: [Common 17-206] Exiting updatemem at Mon Oct 19 17:50:16 2015...

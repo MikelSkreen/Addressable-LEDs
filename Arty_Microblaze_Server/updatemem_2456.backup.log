@@ -1,0 +1,17 @@
+#-----------------------------------------------------------
+# updatemem v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# 
+# Start of session at: Mon Oct 19 17:41:58 2015
+# Process ID: 4148
+# Log file: c:/Users/mskreen.NI/OneDrive/Digilent/Arty/Arty_Microblaze_Server/updatemem.log
+# Journal file: c:/Users/mskreen.NI/OneDrive/Digilent/Arty/Arty_Microblaze_Server\updatemem.jou
+#-----------------------------------------------------------
+source C:/Xilinx/SDK/2015.2/scripts/updatemem/main.tcl -notrace
+Loading bitfile C:/Users/mskreen.NI/OneDrive/Digilent/Arty/Mb_Server/Mb_Server.sdk/Mb_Server_wrapper_hw_platform_0/Mb_Server_wrapper.bit
+Loading data files...
+Updating memory content...
+Creating bitstream...
+Writing bitstream C:/Users/mskreen.NI/OneDrive/Digilent/Arty/Mb_Server/Mb_Server.sdk/Mb_Server_wrapper_hw_platform_0/download.bit...
+update_mem: Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 487.367 ; gain = 434.188
+INFO: [Common 17-206] Exiting updatemem at Mon Oct 19 17:42:07 2015...

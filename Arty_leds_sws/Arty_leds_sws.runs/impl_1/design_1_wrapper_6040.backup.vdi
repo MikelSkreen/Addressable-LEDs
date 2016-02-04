@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Sun Aug 02 15:28:13 2015
+# Process ID: 5956
+# Log file: C:/Users/mskreen.NI/OneDrive/Digilent/Arty/Arty_leds_sws/Arty_leds_sws.runs/impl_1/design_1_wrapper.vdi
+# Journal file: C:/Users/mskreen.NI/OneDrive/Digilent/Arty/Arty_leds_sws/Arty_leds_sws.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source design_1_wrapper.tcl -notrace
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+INFO: [Netlist 29-17] Analyzing 584 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2015.2
+INFO: [Device 21-403] Loading part xc7a35ticsg324-1L
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [c:/Users/mskreen.NI/OneDrive/Digilent/Arty/Arty_leds_sws/Arty_leds_sws.srcs/sources_1/bd/design_1/ip/design_1_microblaze_0_0/design_1_microblaze_0_0.xdc] for cell 'design_1_i/microblaze_0/U0'
+Finished Parsing XDC File [c:/Users/mskreen.NI/OneDrive/Digilent/Arty/Arty_leds_sws/Arty_leds_sws.srcs/sources_1/bd/design_1/ip/design_1_microblaze_0_0/design_1_microblaze_0_0.xdc] for cell 'design_1_i/microblaze_0/U0'
+Parsing XDC File [c:/Users/mskreen.NI/OneDrive/Digilent/Arty/Arty_leds_sws/Arty_leds_sws.srcs/sources_1/bd/design_1/ip/design_1_dlmb_v10_0/design_1_dlmb_v10_0.xdc] for cell 'design_1_i/microblaze_0_local_memory/dlmb_v10/U0'
+Finished Parsing XDC File [c:/Users/mskreen.NI/OneDrive/Digilent/Arty/Arty_leds_sws/Arty_leds_sws.srcs/sources_1/bd/design_1/ip/design_1_dlmb_v10_0/design_1_dlmb_v10_0.xdc] for cell 'design_1_i/microblaze_0_local_memory/dlmb_v10/U0'
+Parsing XDC File [c:/Users/mskreen.NI/OneDrive/Digilent/Arty/Arty_leds_sws/Arty_leds_sws.srcs/sources_1/bd/design_1/ip/design_1_ilmb_v10_0/design_1_ilmb_v10_0.xdc] for cell 'design_1_i/microblaze_0_local_memory/ilmb_v10/U0'
+Finished Parsing XDC File [c:/Users/mskreen.NI/OneDrive/Digilent/Arty/Arty_leds_sws/Arty_leds_sws.srcs/sources_1/bd/design_1/ip/design_1_ilmb_v10_0/design_1_ilmb_v10_0.xdc] for cell 'design_1_i/microblaze_0_local_memory/ilmb_v10/U0'
+Parsing XDC File [c:/Users/mskreen.NI/OneDrive/Digilent/Arty/Arty_leds_sws/Arty_leds_sws.srcs/sources_1/bd/design_1/ip/design_1_mdm_1_0/design_1_mdm_1_0.xdc] for cell 'design_1_i/mdm_1/U0'

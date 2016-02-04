@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# Webtalk v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# 
+# Start of session at: Tue Aug 04 14:31:45 2015
+# Process ID: 9860
+# Log file: C:/Users/mskreen.NI/OneDrive/Digilent/Arty/Arty_leds_sws/Arty_leds_sws.sdk/webtalk/webtalk.log
+# Journal file: C:/Users/mskreen.NI/OneDrive/Digilent/Arty/Arty_leds_sws/Arty_leds_sws.sdk/webtalk\webtalk.jou
+#-----------------------------------------------------------
+source sdk_webtalk.tcl

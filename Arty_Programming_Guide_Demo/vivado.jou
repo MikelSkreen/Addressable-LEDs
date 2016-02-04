@@ -1,0 +1,41 @@
+#-----------------------------------------------------------
+# Vivado v2015.2.1 (64-bit)
+# SW Build 1302555 on Wed Aug  5 13:06:02 MDT 2015
+# IP Build 1291990 on Mon Jul 27 03:18:52 MDT 2015
+# Start of session at: Mon Oct 12 15:07:26 2015
+# Process ID: 11124
+# Log file: C:/Users/mskreen.NI/OneDrive/Digilent/Arty/Arty_Programming_Guide_Demo/vivado.log
+# Journal file: C:/Users/mskreen.NI/OneDrive/Digilent/Arty/Arty_Programming_Guide_Demo\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/mskreen.NI/OneDrive/Digilent/Arty/Arty_Programming_Guide_Demo/Arty_Programming_Guide_Demo.xpr
+file mkdir C:/Users/mskreen.NI/OneDrive/Digilent/Arty/Arty_Programming_Guide_Demo/Arty_Programming_Guide_Demo.srcs/constrs_1/new
+close [ open C:/Users/mskreen.NI/OneDrive/Digilent/Arty/Arty_Programming_Guide_Demo/Arty_Programming_Guide_Demo.srcs/constrs_1/new/Arty_sw_btn_led.xdc w ]
+add_files -fileset constrs_1 C:/Users/mskreen.NI/OneDrive/Digilent/Arty/Arty_Programming_Guide_Demo/Arty_Programming_Guide_Demo.srcs/constrs_1/new/Arty_sw_btn_led.xdc
+remove_files -fileset constrs_1 C:/Users/mskreen.NI/OneDrive/Digilent/Arty/Arty_Programming_Guide_Demo/Arty_Programming_Guide_Demo.srcs/constrs_1/imports/Arty/Arty_Master.xdc
+file delete -force C:/Users/mskreen.NI/OneDrive/Digilent/Arty/Arty_Programming_Guide_Demo/Arty_Programming_Guide_Demo.srcs/constrs_1/imports/Arty/Arty_Master.xdc
+open_hw
+connect_hw_server -url localhost:3121
+current_hw_target [get_hw_targets */xilinx_tcf/Digilent/210319722169A]
+set_property PARAM.FREQUENCY 15000000 [get_hw_targets */xilinx_tcf/Digilent/210319722169A]
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/mskreen.NI/OneDrive/Digilent/Arty/Arty_Programming_Guide_Demo/Arty_Programming_Guide_Demo.runs/impl_1/sw_btn_led.bit} [lindex [get_hw_devices] 0]
+current_hw_device [lindex [get_hw_devices] 0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices] 0]
+create_hw_cfgmem -hw_device [lindex [get_hw_devices] 0] -mem_dev  [lindex [get_cfgmem_parts {s25fl032p-spi-x1_x2_x4}] 0]
+set_property PROGRAM.BLANK_CHECK  0 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices] 0 ]]
+set_property PROGRAM.ERASE  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices] 0 ]]
+set_property PROGRAM.CFG_PROGRAM  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices] 0 ]]
+set_property PROGRAM.VERIFY  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices] 0 ]]
+refresh_hw_device [lindex [get_hw_devices] 0]
+close_hw_target
+close_hw_target
+disconnect_hw_server localhost:3121
+connect_hw_server -url localhost:3121
+current_hw_target [get_hw_targets */xilinx_tcf/Digilent/210319722169A]
+set_property PARAM.FREQUENCY 15000000 [get_hw_targets */xilinx_tcf/Digilent/210319722169A]
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/mskreen.NI/OneDrive/Digilent/Arty/Arty_Programming_Guide_Demo/Arty_Programming_Guide_Demo.runs/impl_1/sw_btn_led.bit} [lindex [get_hw_devices] 0]
+current_hw_device [lindex [get_hw_devices] 0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices] 0]
+close_hw_target
